@@ -2,13 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Memory Match</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek's memory</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <h1>Esto es una prueba</h1>
-    <p>aprendiendo GitHub</p>
+<div id="root"></div>
+<div class="yellow">
+<!--Home page-->
+     <section id="homePage">
+     <div class="purple">
+          <div>
+              <img  class="hPImgLogo" src="logoModif2.png">
+          </div>
+          <div>
+              <img class="hPImgGeeky" src="geekyHomePage.png">
+          </div>
+          <button type="button" id="homePageBtn" class="homePageBtn"> Jugar </button>
+          <button type="button" id="instructionsBtn" class="instructionsBtn"> ? </button>
+     </div><!--Este es del purple-->
+     </section>
+
+<!--Game page-->
+     <section hidden id="gamePage"> 
+      <h1>Game page</h1>
+     </section>
+
+<!--Instructions page-->
+     <section hidden id="instructionsPage"> 
+      <h1>Instructions page</h1>
+     </section>
+
+</div> <!--este es el del div yellow-->
+<!--esto es un cambio-->
+
     <script src="main.js" type="module"></script>
   </body>
 </html>
